@@ -6,7 +6,7 @@
     <b>nuaNce's dotfiles</b> 
     <br />
     <br />
-    <b>where else can you find them</b>
+    <b> :smile: where else can you find them :smile: </b>
 </h2>
 <br />
 
@@ -77,7 +77,21 @@ My Firefox userChrome is just a modified version of [u/otto251](https://www.redd
 
 </p>
 
-Links can be changed by editing the `index.html` file in the `/startpage` folder
+Links can be changed by editing the `index.html` file in the `.mozilla/startpage/` folder
 ***
 <br />
 <h3 align="center">Obmenu Setup</h3>
+
+<p align="center">My preferred obenpox right-click menu is obmenu, menus can be generated using a program called obmenu-generator, here is mine (config and perl scheme included in repo):</p>
+
+<p align="center"
+
+![img](scrots/scrot-obmenu.png)
+
+</p>
+
+`wallpaper` command randomly sets a wallpaper from the `~/Pictures/wallpapers` directory on your computer. `mpc` commands do what their names say, but `mpc info` will open up a small Alacritty window displaying information about the currently playing song. Dependencies for this can be installed with this command:
+`sudo pacman -S mpd mpc feh alacritty`
+
+Font used in menu is [Proggy](https://github.com/bluescan/proggyfonts)
+***
