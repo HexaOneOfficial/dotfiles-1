@@ -57,7 +57,7 @@
 <br />
 <h3 align="center">Neovim Config</h3>
 
-My Neovim config and plugins are included in the repo, keep in mind that the plugins are suited towards web developement and markdown editing, they may not match your needs, Colorscheme used is mentioned in my reddit post.
+<p align="center">My Neovim config and plugins are included in the repo, keep in mind that the plugins are suited towards web developement and markdown editing, they may not match your needs, Colorscheme used is mentioned in my reddit post.</p>
 
 <p align="center"
 
