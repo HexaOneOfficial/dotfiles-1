@@ -1,0 +1,89 @@
+; polybar for my openbox session
+
+[settings]
+compositing-background = over
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = under
+
+[colors]
+background = #f0e6dd
+foreground = #f0e6dd
+foreground-alt = #2b241d
+
+[bar/openbox]
+width = 8.5%
+height = 28
+offset-x = 0.5%
+offset-y = 1%
+radius = 0
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 0
+border-size = 0
+border-color = #000000
+border-radius = 0
+padding-left = 1
+padding-right = 1
+module-margin-left = 0
+module-margin-right = 0
+font-0 = Curie:size=11;2
+modules-left = date
+modules-center =
+modules-right =
+tray-position =
+tray-padding = 3
+tray-detached = false
+wm-restack = openbox
+override-redirect = true
+pseudo-transparency = true
+
+[bar/tray]
+width = 5%
+height = 28
+offset-x = 94.5%
+offset-y = 1%
+radius = 0
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 0
+border-size = 0
+border-color = #00000000
+border-transparent = true
+padding-left = 1
+padding-right = 1
+module-margin-left = 0
+module-margin-right = 0
+font-0 = Curie:size=11;2
+modules-left =
+modules-center = spacer
+modules-right =
+tray-position = center
+tray-padding = 0
+tray-detached = true
+wm-restack = openbox
+override-redirect = false
+pseudo-transparency = true
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over 
+
+[module/date]
+type = internal/date
+interval = 30
+date = %a, %d %b
+time = %I:%M %P
+label = " %date% at %time% "
+label-foreground = ${colors.foreground-alt} 
+label-background = ${colors.background}
+
+[module/spacer]
+type = custom/text
+content = " "
+format-foreground = ${colors.background} 
+format-background = ${colors.background}
