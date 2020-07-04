@@ -8,7 +8,7 @@
     <br />
     <b>where else can you find them</b>
 </h2>
-
+<br />
 
 <h3 align="center">
     <b>Overview</b>
@@ -29,3 +29,9 @@
 **File Manager:** Thunar
 
 **Statusbar:** Polybar
+
+### Alacritty Config
+
+My alacritty config file can be found at `/.config/alacritty/alacritty.yml`
+
+[img](scrots/scrot-alacritty.png)
