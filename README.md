@@ -44,7 +44,7 @@
 <br />
 <h3 align="center">Alacritty Config</h3>
 
-<p align="center"> My alacritty config file can be found in the repo at the Alacritty config folder</p>
+<p align="center"> My alacritty config file can be found in the repo at the Alacritty config folder.</p>
 
 <p align="center"
 
@@ -77,7 +77,7 @@ My Firefox userChrome is just a modified version of [u/otto251](https://www.redd
 
 </p>
 
-Links can be changed by editing the `index.html` file in the `.mozilla/startpage/` folder
+Links can be changed by editing the `index.html` file in the `.mozilla/startpage/` folder.
 ***
 <br />
 <h3 align="center">Obmenu Setup</h3>
@@ -95,3 +95,9 @@ Links can be changed by editing the `index.html` file in the `.mozilla/startpage
 
 Font used in menu is [Proggy](https://github.com/bluescan/proggyfonts)
 ***
+<br />
+<h3 align="center">Endnotes and license</h3>
+
+If something doesn't work for you as it should or if there is a big, please feel free to create an issue and I will address it as soon as possible.
+
+Licence is GPL, you are free to do whatever you like, no need to credit me or anything.
