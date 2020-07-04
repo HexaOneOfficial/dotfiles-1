@@ -13,9 +13,12 @@
 <h3 align="center">
     <b>Overview</b>
 </h3>
+<p align="center">Just a minimal openbox setup that syncs with my workflow</p>
 
+***
 ![img](scrots/scrot-desktop.png)
 
+***
 ### Programs used:
 
 **Window Manager:** Openbox
@@ -30,8 +33,33 @@
 
 **Statusbar:** Polybar
 
-### Alacritty Config
+### Fonts I use:
+
+**Curie [here](https://github.com/NerdyPepper/curie)**
+
+**Scientifica [here](https://github.com/NerdyPepper/scientifica)**
+
+**Some of the bitmap fonts [here](https://addy-dclxvi.github.io/post/bitmap-fonts/)**
+***
+
+<br />
+<h3 align="center">Alacritty Config</h3>
+
+<p align="center"
 
 My alacritty config file can be found at `/.config/alacritty/alacritty.yml`
 
-[img](scrots/scrot-alacritty.png)
+</p>
+
+<p align="center"
+
+![img](scrots/scrot-alacritty.png)
+
+</p>
+
+<br />
+<h3 align="center">Neovim Config</h3>
+
+<p align="center"
+
+My Neovim config and plugins are included in the repo, keep in mind that the plugins are suited towards web developement and markdown editing, they may not match your needs
